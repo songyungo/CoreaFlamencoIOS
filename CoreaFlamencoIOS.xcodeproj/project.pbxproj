@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FBB2D43E244EA413B74FD10 /* Pods_CoreaFlamencoIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7509BC5E4F328653B4CBE23D /* Pods_CoreaFlamencoIOSUITests.framework */; };
+		90C2732EBCAC8E1612EE138A /* Pods_CoreaFlamencoIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B4D630D89349A28F2A2090 /* Pods_CoreaFlamencoIOSTests.framework */; };
+		B0D0B4F76EAC6FF30E5E7BFA /* Pods_CoreaFlamencoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B3C4B9D21F64E4077C5135 /* Pods_CoreaFlamencoIOS.framework */; };
+		DC7B1571225498660085F77E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1570225498660085F77E /* AppDelegate.swift */; };
+		DC7B1573225498660085F77E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1572225498660085F77E /* FirstViewController.swift */; };
+		DC7B1575225498660085F77E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1574225498660085F77E /* SecondViewController.swift */; };
+		DC7B1578225498660085F77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7B1576225498660085F77E /* Main.storyboard */; };
+		DC7B157A225498670085F77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7B1579225498670085F77E /* Assets.xcassets */; };
+		DC7B157D225498670085F77E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7B157B225498670085F77E /* LaunchScreen.storyboard */; };
+		DC7B1588225498670085F77E /* CoreaFlamencoIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1587225498670085F77E /* CoreaFlamencoIOSTests.swift */; };
+		DC7B1593225498670085F77E /* CoreaFlamencoIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1592225498670085F77E /* CoreaFlamencoIOSUITests.swift */; };
+		DC7B15A122549A0A0085F77E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC7B15A022549A0A0085F77E /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC7B1584225498670085F77E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC7B1565225498660085F77E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC7B156C225498660085F77E;
+			remoteInfo = CoreaFlamencoIOS;
+		};
+		DC7B158F225498670085F77E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC7B1565225498660085F77E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC7B156C225498660085F77E;
+			remoteInfo = CoreaFlamencoIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14B4D630D89349A28F2A2090 /* Pods_CoreaFlamencoIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreaFlamencoIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBB57CBD91E33D70BAD4103 /* Pods-CoreaFlamencoIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOS/Pods-CoreaFlamencoIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1F331197746FA5B09E216978 /* Pods-CoreaFlamencoIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSUITests/Pods-CoreaFlamencoIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45E0E8A73D33071533C86703 /* Pods-CoreaFlamencoIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOS/Pods-CoreaFlamencoIOS.release.xcconfig"; sourceTree = "<group>"; };
+		7509BC5E4F328653B4CBE23D /* Pods_CoreaFlamencoIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreaFlamencoIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7865F1E16C29272669F920F4 /* Pods-CoreaFlamencoIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSUITests/Pods-CoreaFlamencoIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78B3C4B9D21F64E4077C5135 /* Pods_CoreaFlamencoIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreaFlamencoIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F76CCD28AE84146A60282F /* Pods-CoreaFlamencoIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSTests/Pods-CoreaFlamencoIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC7B156D225498660085F77E /* CoreaFlamencoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreaFlamencoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7B1570225498660085F77E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC7B1572225498660085F77E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DC7B1574225498660085F77E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DC7B1577225498660085F77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC7B1579225498670085F77E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC7B157C225498670085F77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC7B157E225498670085F77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7B1583225498670085F77E /* CoreaFlamencoIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreaFlamencoIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7B1587225498670085F77E /* CoreaFlamencoIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreaFlamencoIOSTests.swift; sourceTree = "<group>"; };
+		DC7B1589225498670085F77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7B158E225498670085F77E /* CoreaFlamencoIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreaFlamencoIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7B1592225498670085F77E /* CoreaFlamencoIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreaFlamencoIOSUITests.swift; sourceTree = "<group>"; };
+		DC7B1594225498670085F77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7B15A022549A0A0085F77E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E77BE319C0A6F5E5AC28AF8D /* Pods-CoreaFlamencoIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSTests/Pods-CoreaFlamencoIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7B156A225498660085F77E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D0B4F76EAC6FF30E5E7BFA /* Pods_CoreaFlamencoIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7B1580225498670085F77E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C2732EBCAC8E1612EE138A /* Pods_CoreaFlamencoIOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7B158B225498670085F77E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBB2D43E244EA413B74FD10 /* Pods_CoreaFlamencoIOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D2D29984C8A2776B26FF8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78B3C4B9D21F64E4077C5135 /* Pods_CoreaFlamencoIOS.framework */,
+				14B4D630D89349A28F2A2090 /* Pods_CoreaFlamencoIOSTests.framework */,
+				7509BC5E4F328653B4CBE23D /* Pods_CoreaFlamencoIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		740E5B476D13E31D24DE4C8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CBB57CBD91E33D70BAD4103 /* Pods-CoreaFlamencoIOS.debug.xcconfig */,
+				45E0E8A73D33071533C86703 /* Pods-CoreaFlamencoIOS.release.xcconfig */,
+				E77BE319C0A6F5E5AC28AF8D /* Pods-CoreaFlamencoIOSTests.debug.xcconfig */,
+				C8F76CCD28AE84146A60282F /* Pods-CoreaFlamencoIOSTests.release.xcconfig */,
+				7865F1E16C29272669F920F4 /* Pods-CoreaFlamencoIOSUITests.debug.xcconfig */,
+				1F331197746FA5B09E216978 /* Pods-CoreaFlamencoIOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC7B1564225498660085F77E = {
+			isa = PBXGroup;
+			children = (
+				DC7B156F225498660085F77E /* CoreaFlamencoIOS */,
+				DC7B1586225498670085F77E /* CoreaFlamencoIOSTests */,
+				DC7B1591225498670085F77E /* CoreaFlamencoIOSUITests */,
+				DC7B156E225498660085F77E /* Products */,
+				740E5B476D13E31D24DE4C8D /* Pods */,
+				17D2D29984C8A2776B26FF8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7B156E225498660085F77E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7B156D225498660085F77E /* CoreaFlamencoIOS.app */,
+				DC7B1583225498670085F77E /* CoreaFlamencoIOSTests.xctest */,
+				DC7B158E225498670085F77E /* CoreaFlamencoIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7B156F225498660085F77E /* CoreaFlamencoIOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC7B15A022549A0A0085F77E /* GoogleService-Info.plist */,
+				DC7B1570225498660085F77E /* AppDelegate.swift */,
+				DC7B1572225498660085F77E /* FirstViewController.swift */,
+				DC7B1574225498660085F77E /* SecondViewController.swift */,
+				DC7B1576225498660085F77E /* Main.storyboard */,
+				DC7B1579225498670085F77E /* Assets.xcassets */,
+				DC7B157B225498670085F77E /* LaunchScreen.storyboard */,
+				DC7B157E225498670085F77E /* Info.plist */,
+			);
+			path = CoreaFlamencoIOS;
+			sourceTree = "<group>";
+		};
+		DC7B1586225498670085F77E /* CoreaFlamencoIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC7B1587225498670085F77E /* CoreaFlamencoIOSTests.swift */,
+				DC7B1589225498670085F77E /* Info.plist */,
+			);
+			path = CoreaFlamencoIOSTests;
+			sourceTree = "<group>";
+		};
+		DC7B1591225498670085F77E /* CoreaFlamencoIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC7B1592225498670085F77E /* CoreaFlamencoIOSUITests.swift */,
+				DC7B1594225498670085F77E /* Info.plist */,
+			);
+			path = CoreaFlamencoIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7B156C225498660085F77E /* CoreaFlamencoIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7B1597225498670085F77E /* Build configuration list for PBXNativeTarget "CoreaFlamencoIOS" */;
+			buildPhases = (
+				DF1CFCF3EE32EDB62879C345 /* [CP] Check Pods Manifest.lock */,
+				DC7B1569225498660085F77E /* Sources */,
+				DC7B156A225498660085F77E /* Frameworks */,
+				DC7B156B225498660085F77E /* Resources */,
+				9BC394A602A2EEEFC7BD35D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreaFlamencoIOS;
+			productName = CoreaFlamencoIOS;
+			productReference = DC7B156D225498660085F77E /* CoreaFlamencoIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC7B1582225498670085F77E /* CoreaFlamencoIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7B159A225498670085F77E /* Build configuration list for PBXNativeTarget "CoreaFlamencoIOSTests" */;
+			buildPhases = (
+				A68032A11BFB2F50CE1BE6EF /* [CP] Check Pods Manifest.lock */,
+				DC7B157F225498670085F77E /* Sources */,
+				DC7B1580225498670085F77E /* Frameworks */,
+				DC7B1581225498670085F77E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC7B1585225498670085F77E /* PBXTargetDependency */,
+			);
+			name = CoreaFlamencoIOSTests;
+			productName = CoreaFlamencoIOSTests;
+			productReference = DC7B1583225498670085F77E /* CoreaFlamencoIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC7B158D225498670085F77E /* CoreaFlamencoIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7B159D225498670085F77E /* Build configuration list for PBXNativeTarget "CoreaFlamencoIOSUITests" */;
+			buildPhases = (
+				09B23537992C96FFFE32D5B0 /* [CP] Check Pods Manifest.lock */,
+				DC7B158A225498670085F77E /* Sources */,
+				DC7B158B225498670085F77E /* Frameworks */,
+				DC7B158C225498670085F77E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC7B1590225498670085F77E /* PBXTargetDependency */,
+			);
+			name = CoreaFlamencoIOSUITests;
+			productName = CoreaFlamencoIOSUITests;
+			productReference = DC7B158E225498670085F77E /* CoreaFlamencoIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC7B1565225498660085F77E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yun Song";
+				TargetAttributes = {
+					DC7B156C225498660085F77E = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					DC7B1582225498670085F77E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DC7B156C225498660085F77E;
+					};
+					DC7B158D225498670085F77E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DC7B156C225498660085F77E;
+					};
+				};
+			};
+			buildConfigurationList = DC7B1568225498660085F77E /* Build configuration list for PBXProject "CoreaFlamencoIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC7B1564225498660085F77E;
+			productRefGroup = DC7B156E225498660085F77E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7B156C225498660085F77E /* CoreaFlamencoIOS */,
+				DC7B1582225498670085F77E /* CoreaFlamencoIOSTests */,
+				DC7B158D225498670085F77E /* CoreaFlamencoIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7B156B225498660085F77E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7B157D225498670085F77E /* LaunchScreen.storyboard in Resources */,
+				DC7B15A122549A0A0085F77E /* GoogleService-Info.plist in Resources */,
+				DC7B157A225498670085F77E /* Assets.xcassets in Resources */,
+				DC7B1578225498660085F77E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7B1581225498670085F77E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7B158C225498670085F77E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09B23537992C96FFFE32D5B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreaFlamencoIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC394A602A2EEEFC7BD35D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoreaFlamencoIOS/Pods-CoreaFlamencoIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreaFlamencoIOS/Pods-CoreaFlamencoIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68032A11BFB2F50CE1BE6EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreaFlamencoIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1CFCF3EE32EDB62879C345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreaFlamencoIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7B1569225498660085F77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7B1575225498660085F77E /* SecondViewController.swift in Sources */,
+				DC7B1571225498660085F77E /* AppDelegate.swift in Sources */,
+				DC7B1573225498660085F77E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7B157F225498670085F77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7B1588225498670085F77E /* CoreaFlamencoIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7B158A225498670085F77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7B1593225498670085F77E /* CoreaFlamencoIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC7B1585225498670085F77E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC7B156C225498660085F77E /* CoreaFlamencoIOS */;
+			targetProxy = DC7B1584225498670085F77E /* PBXContainerItemProxy */;
+		};
+		DC7B1590225498670085F77E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC7B156C225498660085F77E /* CoreaFlamencoIOS */;
+			targetProxy = DC7B158F225498670085F77E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC7B1576225498660085F77E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7B1577225498660085F77E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC7B157B225498670085F77E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7B157C225498670085F77E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC7B1595225498670085F77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC7B1596225498670085F77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC7B1598225498670085F77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBB57CBD91E33D70BAD4103 /* Pods-CoreaFlamencoIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96P4UWM6VX;
+				INFOPLIST_FILE = CoreaFlamencoIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoreaFlamenco.CoreaFlamencoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC7B1599225498670085F77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E0E8A73D33071533C86703 /* Pods-CoreaFlamencoIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96P4UWM6VX;
+				INFOPLIST_FILE = CoreaFlamencoIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoreaFlamenco.CoreaFlamencoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DC7B159B225498670085F77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77BE319C0A6F5E5AC28AF8D /* Pods-CoreaFlamencoIOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96P4UWM6VX;
+				INFOPLIST_FILE = CoreaFlamencoIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoreaFlamenco.CoreaFlamencoIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreaFlamencoIOS.app/CoreaFlamencoIOS";
+			};
+			name = Debug;
+		};
+		DC7B159C225498670085F77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F76CCD28AE84146A60282F /* Pods-CoreaFlamencoIOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96P4UWM6VX;
+				INFOPLIST_FILE = CoreaFlamencoIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoreaFlamenco.CoreaFlamencoIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreaFlamencoIOS.app/CoreaFlamencoIOS";
+			};
+			name = Release;
+		};
+		DC7B159E225498670085F77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7865F1E16C29272669F920F4 /* Pods-CoreaFlamencoIOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96P4UWM6VX;
+				INFOPLIST_FILE = CoreaFlamencoIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoreaFlamenco.CoreaFlamencoIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreaFlamencoIOS;
+			};
+			name = Debug;
+		};
+		DC7B159F225498670085F77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F331197746FA5B09E216978 /* Pods-CoreaFlamencoIOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96P4UWM6VX;
+				INFOPLIST_FILE = CoreaFlamencoIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoreaFlamenco.CoreaFlamencoIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreaFlamencoIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7B1568225498660085F77E /* Build configuration list for PBXProject "CoreaFlamencoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7B1595225498670085F77E /* Debug */,
+				DC7B1596225498670085F77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7B1597225498670085F77E /* Build configuration list for PBXNativeTarget "CoreaFlamencoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7B1598225498670085F77E /* Debug */,
+				DC7B1599225498670085F77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7B159A225498670085F77E /* Build configuration list for PBXNativeTarget "CoreaFlamencoIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7B159B225498670085F77E /* Debug */,
+				DC7B159C225498670085F77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7B159D225498670085F77E /* Build configuration list for PBXNativeTarget "CoreaFlamencoIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7B159E225498670085F77E /* Debug */,
+				DC7B159F225498670085F77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC7B1565225498660085F77E /* Project object */;
+}

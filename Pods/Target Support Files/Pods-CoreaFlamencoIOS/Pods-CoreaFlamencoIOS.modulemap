@@ -1,0 +1,6 @@
+framework module Pods_CoreaFlamencoIOS {
+  umbrella header "Pods-CoreaFlamencoIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

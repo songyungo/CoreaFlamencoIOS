@@ -1,0 +1,6 @@
+framework module Pods_CoreaFlamencoIOSUITests {
+  umbrella header "Pods-CoreaFlamencoIOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
