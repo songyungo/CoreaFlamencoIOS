@@ -10,9 +10,22 @@
 		4FBB2D43E244EA413B74FD10 /* Pods_CoreaFlamencoIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7509BC5E4F328653B4CBE23D /* Pods_CoreaFlamencoIOSUITests.framework */; };
 		90C2732EBCAC8E1612EE138A /* Pods_CoreaFlamencoIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B4D630D89349A28F2A2090 /* Pods_CoreaFlamencoIOSTests.framework */; };
 		B0D0B4F76EAC6FF30E5E7BFA /* Pods_CoreaFlamencoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B3C4B9D21F64E4077C5135 /* Pods_CoreaFlamencoIOS.framework */; };
+		DC176757225F1B0C00B821C5 /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC176756225F1B0C00B821C5 /* NavigationView.xib */; };
+		DC176759225F1BB900B821C5 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC176758225F1BB900B821C5 /* NavigationView.swift */; };
+		DC17675C225F22F800B821C5 /* BMJUA_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC17675B225F22F800B821C5 /* BMJUA_otf.otf */; };
+		DC17675E225F261B00B821C5 /* MainHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC17675D225F261B00B821C5 /* MainHomeViewController.swift */; };
+		DC176760225F265D00B821C5 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC17675F225F265D00B821C5 /* ClassViewController.swift */; };
+		DC176762225F26AE00B821C5 /* PerformanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC176761225F26AE00B821C5 /* PerformanceViewController.swift */; };
+		DC176764225F26E500B821C5 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC176763225F26E500B821C5 /* ShopViewController.swift */; };
+		DC1767662260621D00B821C5 /* TileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1767652260621D00B821C5 /* TileView.xib */; };
+		DC1767692265A49500B821C5 /* MainHomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767682265A49500B821C5 /* MainHomeData.swift */; };
+		DC17676E2265A6CE00B821C5 /* AdminWritePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC17676D2265A6CE00B821C5 /* AdminWritePageViewController.xib */; };
+		DC1767702265A75700B821C5 /* AdminWritePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC17676F2265A75700B821C5 /* AdminWritePageViewController.swift */; };
+		DC1767722265A79200B821C5 /* AdminReWritePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767712265A79200B821C5 /* AdminReWritePageViewController.swift */; };
+		DC1767742265A7AA00B821C5 /* AdminRewWritePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1767732265A7AA00B821C5 /* AdminRewWritePageViewController.xib */; };
+		DC1767782265A89300B821C5 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767772265A89300B821C5 /* AdminViewController.swift */; };
+		DC1767982265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767972265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift */; };
 		DC7B1571225498660085F77E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1570225498660085F77E /* AppDelegate.swift */; };
-		DC7B1573225498660085F77E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1572225498660085F77E /* FirstViewController.swift */; };
-		DC7B1575225498660085F77E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1574225498660085F77E /* SecondViewController.swift */; };
 		DC7B1578225498660085F77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7B1576225498660085F77E /* Main.storyboard */; };
 		DC7B157A225498670085F77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7B1579225498670085F77E /* Assets.xcassets */; };
 		DC7B157D225498670085F77E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7B157B225498670085F77E /* LaunchScreen.storyboard */; };
@@ -47,10 +60,23 @@
 		7865F1E16C29272669F920F4 /* Pods-CoreaFlamencoIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSUITests/Pods-CoreaFlamencoIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		78B3C4B9D21F64E4077C5135 /* Pods_CoreaFlamencoIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreaFlamencoIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F76CCD28AE84146A60282F /* Pods-CoreaFlamencoIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSTests/Pods-CoreaFlamencoIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC176756225F1B0C00B821C5 /* NavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NavigationView.xib; path = View/NavigationView.xib; sourceTree = "<group>"; };
+		DC176758225F1BB900B821C5 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationView.swift; path = View/NavigationView.swift; sourceTree = "<group>"; };
+		DC17675B225F22F800B821C5 /* BMJUA_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA_otf.otf; sourceTree = "<group>"; };
+		DC17675D225F261B00B821C5 /* MainHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainHomeViewController.swift; path = View/MainHomeViewController.swift; sourceTree = "<group>"; };
+		DC17675F225F265D00B821C5 /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClassViewController.swift; path = View/ClassViewController.swift; sourceTree = "<group>"; };
+		DC176761225F26AE00B821C5 /* PerformanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PerformanceViewController.swift; path = View/PerformanceViewController.swift; sourceTree = "<group>"; };
+		DC176763225F26E500B821C5 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShopViewController.swift; path = View/ShopViewController.swift; sourceTree = "<group>"; };
+		DC1767652260621D00B821C5 /* TileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TileView.xib; path = View/TileView.xib; sourceTree = "<group>"; };
+		DC1767682265A49500B821C5 /* MainHomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeData.swift; sourceTree = "<group>"; };
+		DC17676D2265A6CE00B821C5 /* AdminWritePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminWritePageViewController.xib; sourceTree = "<group>"; };
+		DC17676F2265A75700B821C5 /* AdminWritePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminWritePageViewController.swift; sourceTree = "<group>"; };
+		DC1767712265A79200B821C5 /* AdminReWritePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminReWritePageViewController.swift; sourceTree = "<group>"; };
+		DC1767732265A7AA00B821C5 /* AdminRewWritePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminRewWritePageViewController.xib; sourceTree = "<group>"; };
+		DC1767772265A89300B821C5 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AdminViewController.swift; path = View/AdminViewController.swift; sourceTree = "<group>"; };
+		DC1767972265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreaFlamencoInfoViewController.swift; path = View/CoreaFlamencoInfoViewController.swift; sourceTree = "<group>"; };
 		DC7B156D225498660085F77E /* CoreaFlamencoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreaFlamencoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7B1570225498660085F77E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC7B1572225498660085F77E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DC7B1574225498660085F77E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DC7B1577225498660085F77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC7B1579225498670085F77E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC7B157C225498670085F77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -116,6 +142,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DC176753225F1A9E00B821C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC17676C2265A6B500B821C5 /* Admin */,
+				DC176756225F1B0C00B821C5 /* NavigationView.xib */,
+				DC176758225F1BB900B821C5 /* NavigationView.swift */,
+				DC17675D225F261B00B821C5 /* MainHomeViewController.swift */,
+				DC17675F225F265D00B821C5 /* ClassViewController.swift */,
+				DC1767972265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift */,
+				DC176761225F26AE00B821C5 /* PerformanceViewController.swift */,
+				DC1767772265A89300B821C5 /* AdminViewController.swift */,
+				DC176763225F26E500B821C5 /* ShopViewController.swift */,
+				DC1767652260621D00B821C5 /* TileView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DC17675A225F22F800B821C5 /* FONT */ = {
+			isa = PBXGroup;
+			children = (
+				DC17675B225F22F800B821C5 /* BMJUA_otf.otf */,
+			);
+			path = FONT;
+			sourceTree = "<group>";
+		};
+		DC1767672265A46F00B821C5 /* jSON */ = {
+			isa = PBXGroup;
+			children = (
+				DC1767682265A49500B821C5 /* MainHomeData.swift */,
+			);
+			name = jSON;
+			sourceTree = "<group>";
+		};
+		DC17676C2265A6B500B821C5 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				DC17676D2265A6CE00B821C5 /* AdminWritePageViewController.xib */,
+				DC17676F2265A75700B821C5 /* AdminWritePageViewController.swift */,
+				DC1767712265A79200B821C5 /* AdminReWritePageViewController.swift */,
+				DC1767732265A7AA00B821C5 /* AdminRewWritePageViewController.xib */,
+			);
+			name = Admin;
+			path = View/Admin;
+			sourceTree = "<group>";
+		};
 		DC7B1564225498660085F77E = {
 			isa = PBXGroup;
 			children = (
@@ -141,10 +212,11 @@
 		DC7B156F225498660085F77E /* CoreaFlamencoIOS */ = {
 			isa = PBXGroup;
 			children = (
+				DC1767672265A46F00B821C5 /* jSON */,
+				DC17675A225F22F800B821C5 /* FONT */,
+				DC176753225F1A9E00B821C5 /* View */,
 				DC7B15A022549A0A0085F77E /* GoogleService-Info.plist */,
 				DC7B1570225498660085F77E /* AppDelegate.swift */,
-				DC7B1572225498660085F77E /* FirstViewController.swift */,
-				DC7B1574225498660085F77E /* SecondViewController.swift */,
 				DC7B1576225498660085F77E /* Main.storyboard */,
 				DC7B1579225498670085F77E /* Assets.xcassets */,
 				DC7B157B225498670085F77E /* LaunchScreen.storyboard */,
@@ -280,7 +352,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC7B157D225498670085F77E /* LaunchScreen.storyboard in Resources */,
+				DC17675C225F22F800B821C5 /* BMJUA_otf.otf in Resources */,
+				DC17676E2265A6CE00B821C5 /* AdminWritePageViewController.xib in Resources */,
+				DC1767742265A7AA00B821C5 /* AdminRewWritePageViewController.xib in Resources */,
+				DC176757225F1B0C00B821C5 /* NavigationView.xib in Resources */,
 				DC7B15A122549A0A0085F77E /* GoogleService-Info.plist in Resources */,
+				DC1767662260621D00B821C5 /* TileView.xib in Resources */,
 				DC7B157A225498670085F77E /* Assets.xcassets in Resources */,
 				DC7B1578225498660085F77E /* Main.storyboard in Resources */,
 			);
@@ -386,9 +463,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC7B1575225498660085F77E /* SecondViewController.swift in Sources */,
+				DC176759225F1BB900B821C5 /* NavigationView.swift in Sources */,
+				DC1767702265A75700B821C5 /* AdminWritePageViewController.swift in Sources */,
+				DC176760225F265D00B821C5 /* ClassViewController.swift in Sources */,
+				DC176764225F26E500B821C5 /* ShopViewController.swift in Sources */,
+				DC1767692265A49500B821C5 /* MainHomeData.swift in Sources */,
+				DC1767722265A79200B821C5 /* AdminReWritePageViewController.swift in Sources */,
+				DC17675E225F261B00B821C5 /* MainHomeViewController.swift in Sources */,
 				DC7B1571225498660085F77E /* AppDelegate.swift in Sources */,
-				DC7B1573225498660085F77E /* FirstViewController.swift in Sources */,
+				DC1767782265A89300B821C5 /* AdminViewController.swift in Sources */,
+				DC1767982265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift in Sources */,
+				DC176762225F26AE00B821C5 /* PerformanceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

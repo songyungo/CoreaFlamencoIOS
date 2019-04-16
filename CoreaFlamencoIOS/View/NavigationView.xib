@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BMJUA_otf.otf">
+            <string>BMJUAOTF</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavigationView" customModule="CoreaFlamencoIOS" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1fv-yf-MQJ">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TJl-Ng-NXc">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="896"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M69-5r-m42">
+                            <rect key="frame" x="0.0" y="150" width="250" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="2sX-1P-f1a"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BMJUAOTF" family="BM JUA_OTF" pointSize="35"/>
+                            <state key="normal" title="홈"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCX-po-1XI">
+                            <rect key="frame" x="0.0" y="300" width="250" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="aSs-kD-eNF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BMJUAOTF" family="BM JUA_OTF" pointSize="35"/>
+                            <state key="normal" title="수업"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBe-br-ZZQ">
+                            <rect key="frame" x="0.0" y="450" width="250" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="8Ea-iM-TXz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BMJUAOTF" family="BM JUA_OTF" pointSize="35"/>
+                            <state key="normal" title="공연"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHn-g3-b5K">
+                            <rect key="frame" x="0.0" y="600" width="250" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="MQ2-jU-0xL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BMJUAOTF" family="BM JUA_OTF" pointSize="35"/>
+                            <state key="normal" title="샵"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGe-fb-7ai">
+                            <rect key="frame" x="0.0" y="750" width="250" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="lkm-0e-h93"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BMJUAOTF" family="BM JUA_OTF" pointSize="20"/>
+                            <state key="normal" title="CoreaFlamenco..."/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="gGe-fb-7ai" firstAttribute="top" secondItem="KHn-g3-b5K" secondAttribute="bottom" id="24U-WA-igz"/>
+                        <constraint firstItem="vBe-br-ZZQ" firstAttribute="top" secondItem="gCX-po-1XI" secondAttribute="bottom" id="Ciy-K7-9gH"/>
+                        <constraint firstAttribute="trailing" secondItem="M69-5r-m42" secondAttribute="trailing" id="Gfd-kc-Yoc"/>
+                        <constraint firstAttribute="trailing" secondItem="KHn-g3-b5K" secondAttribute="trailing" id="JuL-KL-R17"/>
+                        <constraint firstItem="KHn-g3-b5K" firstAttribute="leading" secondItem="TJl-Ng-NXc" secondAttribute="leading" id="OVw-CR-xoz"/>
+                        <constraint firstItem="vBe-br-ZZQ" firstAttribute="leading" secondItem="TJl-Ng-NXc" secondAttribute="leading" id="Vg4-h5-9ZJ"/>
+                        <constraint firstItem="gCX-po-1XI" firstAttribute="leading" secondItem="TJl-Ng-NXc" secondAttribute="leading" id="WmV-xs-PJh"/>
+                        <constraint firstAttribute="trailing" secondItem="gCX-po-1XI" secondAttribute="trailing" id="XWh-94-c0D"/>
+                        <constraint firstItem="M69-5r-m42" firstAttribute="leading" secondItem="TJl-Ng-NXc" secondAttribute="leading" id="aWd-aZ-pXS"/>
+                        <constraint firstItem="gCX-po-1XI" firstAttribute="top" secondItem="M69-5r-m42" secondAttribute="bottom" id="ccU-y7-HKS"/>
+                        <constraint firstItem="gGe-fb-7ai" firstAttribute="leading" secondItem="TJl-Ng-NXc" secondAttribute="leading" id="d3C-9b-YOE"/>
+                        <constraint firstAttribute="bottom" secondItem="gGe-fb-7ai" secondAttribute="bottom" constant="-4" id="hJ0-gU-CY2"/>
+                        <constraint firstAttribute="trailing" secondItem="vBe-br-ZZQ" secondAttribute="trailing" id="uMb-cY-FIw"/>
+                        <constraint firstAttribute="trailing" secondItem="gGe-fb-7ai" secondAttribute="trailing" id="y5u-Gy-xdh"/>
+                        <constraint firstItem="KHn-g3-b5K" firstAttribute="top" secondItem="vBe-br-ZZQ" secondAttribute="bottom" id="ymY-Lu-Dkt"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="TJl-Ng-NXc" secondAttribute="bottom" id="DFg-Wa-DAi"/>
+                <constraint firstAttribute="trailing" secondItem="TJl-Ng-NXc" secondAttribute="trailing" constant="164" id="OZ4-rE-89O"/>
+                <constraint firstItem="TJl-Ng-NXc" firstAttribute="leading" secondItem="1fv-yf-MQJ" secondAttribute="leading" id="d8y-xP-XfD"/>
+                <constraint firstItem="TJl-Ng-NXc" firstAttribute="top" secondItem="1fv-yf-MQJ" secondAttribute="top" id="fMh-8m-KHV"/>
+            </constraints>
+            <point key="canvasLocation" x="213.04347826086959" y="-201.5625"/>
+        </view>
+    </objects>
+</document>
