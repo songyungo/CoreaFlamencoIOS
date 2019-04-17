@@ -18,13 +18,17 @@
 		DC176762225F26AE00B821C5 /* PerformanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC176761225F26AE00B821C5 /* PerformanceViewController.swift */; };
 		DC176764225F26E500B821C5 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC176763225F26E500B821C5 /* ShopViewController.swift */; };
 		DC1767662260621D00B821C5 /* TileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1767652260621D00B821C5 /* TileView.xib */; };
-		DC1767692265A49500B821C5 /* MainHomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767682265A49500B821C5 /* MainHomeData.swift */; };
 		DC17676E2265A6CE00B821C5 /* AdminWritePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC17676D2265A6CE00B821C5 /* AdminWritePageViewController.xib */; };
 		DC1767702265A75700B821C5 /* AdminWritePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC17676F2265A75700B821C5 /* AdminWritePageViewController.swift */; };
 		DC1767722265A79200B821C5 /* AdminReWritePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767712265A79200B821C5 /* AdminReWritePageViewController.swift */; };
 		DC1767742265A7AA00B821C5 /* AdminRewWritePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1767732265A7AA00B821C5 /* AdminRewWritePageViewController.xib */; };
 		DC1767782265A89300B821C5 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767772265A89300B821C5 /* AdminViewController.swift */; };
 		DC1767982265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767972265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift */; };
+		DC1767A82266C67200B821C5 /* BoardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767A52266C67200B821C5 /* BoardData.swift */; };
+		DC1767A92266C67200B821C5 /* FireBaseRealTimeDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767A62266C67200B821C5 /* FireBaseRealTimeDB.swift */; };
+		DC1767AA2266C67200B821C5 /* MainHomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767A72266C67200B821C5 /* MainHomeData.swift */; };
+		DC1767AC2266CDC600B821C5 /* AdminLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1767AB2266CDC600B821C5 /* AdminLoginViewController.xib */; };
+		DC1767AE2266CDD900B821C5 /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767AD2266CDD900B821C5 /* AdminLoginViewController.swift */; };
 		DC7B1571225498660085F77E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1570225498660085F77E /* AppDelegate.swift */; };
 		DC7B1578225498660085F77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7B1576225498660085F77E /* Main.storyboard */; };
 		DC7B157A225498670085F77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7B1579225498670085F77E /* Assets.xcassets */; };
@@ -68,13 +72,17 @@
 		DC176761225F26AE00B821C5 /* PerformanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PerformanceViewController.swift; path = View/PerformanceViewController.swift; sourceTree = "<group>"; };
 		DC176763225F26E500B821C5 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShopViewController.swift; path = View/ShopViewController.swift; sourceTree = "<group>"; };
 		DC1767652260621D00B821C5 /* TileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TileView.xib; path = View/TileView.xib; sourceTree = "<group>"; };
-		DC1767682265A49500B821C5 /* MainHomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeData.swift; sourceTree = "<group>"; };
 		DC17676D2265A6CE00B821C5 /* AdminWritePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminWritePageViewController.xib; sourceTree = "<group>"; };
 		DC17676F2265A75700B821C5 /* AdminWritePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminWritePageViewController.swift; sourceTree = "<group>"; };
 		DC1767712265A79200B821C5 /* AdminReWritePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminReWritePageViewController.swift; sourceTree = "<group>"; };
 		DC1767732265A7AA00B821C5 /* AdminRewWritePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminRewWritePageViewController.xib; sourceTree = "<group>"; };
 		DC1767772265A89300B821C5 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AdminViewController.swift; path = View/AdminViewController.swift; sourceTree = "<group>"; };
 		DC1767972265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreaFlamencoInfoViewController.swift; path = View/CoreaFlamencoInfoViewController.swift; sourceTree = "<group>"; };
+		DC1767A52266C67200B821C5 /* BoardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardData.swift; sourceTree = "<group>"; };
+		DC1767A62266C67200B821C5 /* FireBaseRealTimeDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireBaseRealTimeDB.swift; sourceTree = "<group>"; };
+		DC1767A72266C67200B821C5 /* MainHomeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHomeData.swift; sourceTree = "<group>"; };
+		DC1767AB2266CDC600B821C5 /* AdminLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminLoginViewController.xib; sourceTree = "<group>"; };
+		DC1767AD2266CDD900B821C5 /* AdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
 		DC7B156D225498660085F77E /* CoreaFlamencoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreaFlamencoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7B1570225498660085F77E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC7B1577225498660085F77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -167,14 +175,6 @@
 			path = FONT;
 			sourceTree = "<group>";
 		};
-		DC1767672265A46F00B821C5 /* jSON */ = {
-			isa = PBXGroup;
-			children = (
-				DC1767682265A49500B821C5 /* MainHomeData.swift */,
-			);
-			name = jSON;
-			sourceTree = "<group>";
-		};
 		DC17676C2265A6B500B821C5 /* Admin */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,9 +182,21 @@
 				DC17676F2265A75700B821C5 /* AdminWritePageViewController.swift */,
 				DC1767712265A79200B821C5 /* AdminReWritePageViewController.swift */,
 				DC1767732265A7AA00B821C5 /* AdminRewWritePageViewController.xib */,
+				DC1767AB2266CDC600B821C5 /* AdminLoginViewController.xib */,
+				DC1767AD2266CDD900B821C5 /* AdminLoginViewController.swift */,
 			);
 			name = Admin;
 			path = View/Admin;
+			sourceTree = "<group>";
+		};
+		DC1767A42266C67200B821C5 /* FireBaseDB */ = {
+			isa = PBXGroup;
+			children = (
+				DC1767A52266C67200B821C5 /* BoardData.swift */,
+				DC1767A62266C67200B821C5 /* FireBaseRealTimeDB.swift */,
+				DC1767A72266C67200B821C5 /* MainHomeData.swift */,
+			);
+			path = FireBaseDB;
 			sourceTree = "<group>";
 		};
 		DC7B1564225498660085F77E = {
@@ -212,7 +224,7 @@
 		DC7B156F225498660085F77E /* CoreaFlamencoIOS */ = {
 			isa = PBXGroup;
 			children = (
-				DC1767672265A46F00B821C5 /* jSON */,
+				DC1767A42266C67200B821C5 /* FireBaseDB */,
 				DC17675A225F22F800B821C5 /* FONT */,
 				DC176753225F1A9E00B821C5 /* View */,
 				DC7B15A022549A0A0085F77E /* GoogleService-Info.plist */,
@@ -355,6 +367,7 @@
 				DC17675C225F22F800B821C5 /* BMJUA_otf.otf in Resources */,
 				DC17676E2265A6CE00B821C5 /* AdminWritePageViewController.xib in Resources */,
 				DC1767742265A7AA00B821C5 /* AdminRewWritePageViewController.xib in Resources */,
+				DC1767AC2266CDC600B821C5 /* AdminLoginViewController.xib in Resources */,
 				DC176757225F1B0C00B821C5 /* NavigationView.xib in Resources */,
 				DC7B15A122549A0A0085F77E /* GoogleService-Info.plist in Resources */,
 				DC1767662260621D00B821C5 /* TileView.xib in Resources */,
@@ -464,10 +477,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC176759225F1BB900B821C5 /* NavigationView.swift in Sources */,
+				DC1767A92266C67200B821C5 /* FireBaseRealTimeDB.swift in Sources */,
 				DC1767702265A75700B821C5 /* AdminWritePageViewController.swift in Sources */,
+				DC1767A82266C67200B821C5 /* BoardData.swift in Sources */,
 				DC176760225F265D00B821C5 /* ClassViewController.swift in Sources */,
 				DC176764225F26E500B821C5 /* ShopViewController.swift in Sources */,
-				DC1767692265A49500B821C5 /* MainHomeData.swift in Sources */,
+				DC1767AE2266CDD900B821C5 /* AdminLoginViewController.swift in Sources */,
+				DC1767AA2266C67200B821C5 /* MainHomeData.swift in Sources */,
 				DC1767722265A79200B821C5 /* AdminReWritePageViewController.swift in Sources */,
 				DC17675E225F261B00B821C5 /* MainHomeViewController.swift in Sources */,
 				DC7B1571225498660085F77E /* AppDelegate.swift in Sources */,

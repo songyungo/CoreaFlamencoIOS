@@ -28,7 +28,12 @@
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="2sX-1P-f1a"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="BMJUAOTF" family="BM JUA_OTF" pointSize="35"/>
-                            <state key="normal" title="홈"/>
+                            <state key="normal" title="홈">
+                                <color key="titleColor" red="0.14000248908996582" green="0.18075647950172424" blue="0.16853979229927063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="0.386574387550354" green="0.46146458387374878" blue="0.29030460119247437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCX-po-1XI">
                             <rect key="frame" x="0.0" y="300" width="250" height="150"/>
@@ -36,7 +41,12 @@
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="aSs-kD-eNF"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="BMJUAOTF" family="BM JUA_OTF" pointSize="35"/>
-                            <state key="normal" title="수업"/>
+                            <state key="normal" title="수업">
+                                <color key="titleColor" red="0.14000248908996582" green="0.18075647950172424" blue="0.16853979229927063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="0.38657438760000001" green="0.4614645839" blue="0.29030460120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBe-br-ZZQ">
                             <rect key="frame" x="0.0" y="450" width="250" height="150"/>
@@ -44,7 +54,12 @@
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="8Ea-iM-TXz"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="BMJUAOTF" family="BM JUA_OTF" pointSize="35"/>
-                            <state key="normal" title="공연"/>
+                            <state key="normal" title="공연">
+                                <color key="titleColor" red="0.14000248908996582" green="0.18075647950172424" blue="0.16853979229927063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="0.38657438760000001" green="0.4614645839" blue="0.29030460120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHn-g3-b5K">
                             <rect key="frame" x="0.0" y="600" width="250" height="150"/>
@@ -52,7 +67,12 @@
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="MQ2-jU-0xL"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="BMJUAOTF" family="BM JUA_OTF" pointSize="35"/>
-                            <state key="normal" title="샵"/>
+                            <state key="normal" title="샵">
+                                <color key="titleColor" red="0.14000248909999999" green="0.18075647950000001" blue="0.16853979229999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="0.38657438760000001" green="0.4614645839" blue="0.29030460120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGe-fb-7ai">
                             <rect key="frame" x="0.0" y="750" width="250" height="150"/>
@@ -60,7 +80,12 @@
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="lkm-0e-h93"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="BMJUAOTF" family="BM JUA_OTF" pointSize="20"/>
-                            <state key="normal" title="CoreaFlamenco..."/>
+                            <state key="normal" title="CoreaFlamenco...">
+                                <color key="titleColor" red="0.14000248909999999" green="0.18075647950000001" blue="0.16853979229999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="0.38657438760000001" green="0.4614645839" blue="0.29030460120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
