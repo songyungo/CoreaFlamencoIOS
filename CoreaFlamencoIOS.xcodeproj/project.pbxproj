@@ -36,6 +36,8 @@
 		DC7B1588225498670085F77E /* CoreaFlamencoIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1587225498670085F77E /* CoreaFlamencoIOSTests.swift */; };
 		DC7B1593225498670085F77E /* CoreaFlamencoIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7B1592225498670085F77E /* CoreaFlamencoIOSUITests.swift */; };
 		DC7B15A122549A0A0085F77E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC7B15A022549A0A0085F77E /* GoogleService-Info.plist */; };
+		DCCE000D226839E1006CEDB6 /* AdminBoardListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */; };
+		DCCE000F226839F5006CEDB6 /* AdminBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE000E226839F5006CEDB6 /* AdminBoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		DC7B1592225498670085F77E /* CoreaFlamencoIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreaFlamencoIOSUITests.swift; sourceTree = "<group>"; };
 		DC7B1594225498670085F77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC7B15A022549A0A0085F77E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminBoardListViewController.xib; sourceTree = "<group>"; };
+		DCCE000E226839F5006CEDB6 /* AdminBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminBoardViewController.swift; sourceTree = "<group>"; };
 		E77BE319C0A6F5E5AC28AF8D /* Pods-CoreaFlamencoIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSTests/Pods-CoreaFlamencoIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,6 +188,8 @@
 				DC1767732265A7AA00B821C5 /* AdminRewWritePageViewController.xib */,
 				DC1767AB2266CDC600B821C5 /* AdminLoginViewController.xib */,
 				DC1767AD2266CDD900B821C5 /* AdminLoginViewController.swift */,
+				DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */,
+				DCCE000E226839F5006CEDB6 /* AdminBoardViewController.swift */,
 			);
 			name = Admin;
 			path = View/Admin;
@@ -372,6 +378,7 @@
 				DC7B15A122549A0A0085F77E /* GoogleService-Info.plist in Resources */,
 				DC1767662260621D00B821C5 /* TileView.xib in Resources */,
 				DC7B157A225498670085F77E /* Assets.xcassets in Resources */,
+				DCCE000D226839E1006CEDB6 /* AdminBoardListViewController.xib in Resources */,
 				DC7B1578225498660085F77E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +497,7 @@
 				DC1767782265A89300B821C5 /* AdminViewController.swift in Sources */,
 				DC1767982265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift in Sources */,
 				DC176762225F26AE00B821C5 /* PerformanceViewController.swift in Sources */,
+				DCCE000F226839F5006CEDB6 /* AdminBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

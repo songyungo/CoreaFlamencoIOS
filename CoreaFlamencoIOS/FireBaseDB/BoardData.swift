@@ -8,8 +8,20 @@
 
 import Foundation
 
-class BoardData: NSObject {
-    override init() {
+struct BoardData {
+    var title : String!
+    var body : String!
+    var date : String!
+    var image : String!
+    var number : String!
+    
+    
+    init( title : String, body:String , date :String , image :String, number: String) {
+        self.title = title
+        self.body = body
+        self.date = date
+        self.image = image
+        self.number = number
         
     }
 }

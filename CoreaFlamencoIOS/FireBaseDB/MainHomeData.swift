@@ -8,8 +8,17 @@
 
 import UIKit
 
-class MainHomeData: NSObject {
-    override init() {
+struct MainHomeData  {
+    var image : String!
+    var path : String!
+    var title : String!
+    var number : String!
+    
+    init( title : String, path:String , image :String, number: String) {
+        self.title = title
+        self.path = path
+        self.image = image
+        self.number = number
         
     }
 }
