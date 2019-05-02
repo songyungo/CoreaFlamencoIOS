@@ -38,6 +38,7 @@
 		DC7B15A122549A0A0085F77E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC7B15A022549A0A0085F77E /* GoogleService-Info.plist */; };
 		DCCE000D226839E1006CEDB6 /* AdminBoardListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */; };
 		DCCE000F226839F5006CEDB6 /* AdminBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE000E226839F5006CEDB6 /* AdminBoardViewController.swift */; };
+		DCCE0011227AE5A3006CEDB6 /* BoardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE0010227AE5A3006CEDB6 /* BoardList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		DC7B15A022549A0A0085F77E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminBoardListViewController.xib; sourceTree = "<group>"; };
 		DCCE000E226839F5006CEDB6 /* AdminBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminBoardViewController.swift; sourceTree = "<group>"; };
+		DCCE0010227AE5A3006CEDB6 /* BoardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardList.swift; sourceTree = "<group>"; };
 		E77BE319C0A6F5E5AC28AF8D /* Pods-CoreaFlamencoIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSTests/Pods-CoreaFlamencoIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				DC1767A52266C67200B821C5 /* BoardData.swift */,
+				DCCE0010227AE5A3006CEDB6 /* BoardList.swift */,
 				DC1767A62266C67200B821C5 /* FireBaseRealTimeDB.swift */,
 				DC1767A72266C67200B821C5 /* MainHomeData.swift */,
 			);
@@ -497,6 +500,7 @@
 				DC1767782265A89300B821C5 /* AdminViewController.swift in Sources */,
 				DC1767982265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift in Sources */,
 				DC176762225F26AE00B821C5 /* PerformanceViewController.swift in Sources */,
+				DCCE0011227AE5A3006CEDB6 /* BoardList.swift in Sources */,
 				DCCE000F226839F5006CEDB6 /* AdminBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

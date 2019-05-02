@@ -13,12 +13,13 @@ struct MainHomeData  {
     var path : String!
     var title : String!
     var number : String!
-    
-    init( title : String, path:String , image :String, number: String) {
-        self.title = title
-        self.path = path
+
+    init( _ image : String , _ path :String , _ title : String , _ number :String) {
         self.image = image
+        self.path = path
+        self.title = title
         self.number = number
         
     }
 }
+
