@@ -40,6 +40,7 @@
 		DC81B38C2282BCA5005CBD31 /* BoardListCellVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC81B38B2282BCA5005CBD31 /* BoardListCellVeiw.swift */; };
 		DC83299C2285474C007C83BD /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC83299B2285474C007C83BD /* TitleView.xib */; };
 		DC83299E22854895007C83BD /* TitleVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83299D22854895007C83BD /* TitleVeiw.swift */; };
+		DC8329A022895F5D007C83BD /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83299F22895F5D007C83BD /* TileView.swift */; };
 		DCCE000D226839E1006CEDB6 /* AdminBoardListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */; };
 		DCCE0011227AE5A3006CEDB6 /* BoardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE0010227AE5A3006CEDB6 /* BoardList.swift */; };
 /* End PBXBuildFile section */
@@ -106,6 +107,7 @@
 		DC81B38B2282BCA5005CBD31 /* BoardListCellVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListCellVeiw.swift; sourceTree = "<group>"; };
 		DC83299B2285474C007C83BD /* TitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TitleView.xib; path = View/TitleView.xib; sourceTree = "<group>"; };
 		DC83299D22854895007C83BD /* TitleVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleVeiw.swift; sourceTree = "<group>"; };
+		DC83299F22895F5D007C83BD /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminBoardListViewController.xib; sourceTree = "<group>"; };
 		DCCE0010227AE5A3006CEDB6 /* BoardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardList.swift; sourceTree = "<group>"; };
 		E77BE319C0A6F5E5AC28AF8D /* Pods-CoreaFlamencoIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSTests/Pods-CoreaFlamencoIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				DC176761225F26AE00B821C5 /* PerformanceViewController.swift */,
 				DC176763225F26E500B821C5 /* ShopViewController.swift */,
 				DC1767652260621D00B821C5 /* TileView.xib */,
+				DC83299F22895F5D007C83BD /* TileView.swift */,
 				DC83299B2285474C007C83BD /* TitleView.xib */,
 				DC83299D22854895007C83BD /* TitleVeiw.swift */,
 			);
@@ -503,6 +506,7 @@
 				DC1767A92266C67200B821C5 /* FireBaseRealTimeDB.swift in Sources */,
 				DC1767702265A75700B821C5 /* AdminWritePageViewController.swift in Sources */,
 				DC1767A82266C67200B821C5 /* BoardData.swift in Sources */,
+				DC8329A022895F5D007C83BD /* TileView.swift in Sources */,
 				DC176760225F265D00B821C5 /* ClassViewController.swift in Sources */,
 				DC176764225F26E500B821C5 /* ShopViewController.swift in Sources */,
 				DC1767AE2266CDD900B821C5 /* AdminLoginViewController.swift in Sources */,
