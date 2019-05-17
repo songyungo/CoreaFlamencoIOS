@@ -17,7 +17,6 @@
 		DC176760225F265D00B821C5 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC17675F225F265D00B821C5 /* ClassViewController.swift */; };
 		DC176762225F26AE00B821C5 /* PerformanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC176761225F26AE00B821C5 /* PerformanceViewController.swift */; };
 		DC176764225F26E500B821C5 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC176763225F26E500B821C5 /* ShopViewController.swift */; };
-		DC1767662260621D00B821C5 /* TileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1767652260621D00B821C5 /* TileView.xib */; };
 		DC17676E2265A6CE00B821C5 /* AdminWritePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC17676D2265A6CE00B821C5 /* AdminWritePageViewController.xib */; };
 		DC1767702265A75700B821C5 /* AdminWritePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC17676F2265A75700B821C5 /* AdminWritePageViewController.swift */; };
 		DC1767722265A79200B821C5 /* AdminReWritePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1767712265A79200B821C5 /* AdminReWritePageViewController.swift */; };
@@ -39,8 +38,11 @@
 		DC81B38A2282BC5A005CBD31 /* BoardListCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC81B3892282BC5A005CBD31 /* BoardListCellView.xib */; };
 		DC81B38C2282BCA5005CBD31 /* BoardListCellVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC81B38B2282BCA5005CBD31 /* BoardListCellVeiw.swift */; };
 		DC83299C2285474C007C83BD /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC83299B2285474C007C83BD /* TitleView.xib */; };
-		DC83299E22854895007C83BD /* TitleVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83299D22854895007C83BD /* TitleVeiw.swift */; };
-		DC8329A022895F5D007C83BD /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83299F22895F5D007C83BD /* TileView.swift */; };
+		DC8329AE228EAA8B007C83BD /* TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8329A9228EAA8B007C83BD /* TableView.xib */; };
+		DC8329AF228EAA8B007C83BD /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8329AA228EAA8B007C83BD /* TableView.swift */; };
+		DC8329B0228EAA8B007C83BD /* TileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8329AB228EAA8B007C83BD /* TileView.xib */; };
+		DC8329B1228EAA8B007C83BD /* TileVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8329AC228EAA8B007C83BD /* TileVeiw.swift */; };
+		DC8329B2228EAA8B007C83BD /* TitleVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8329AD228EAA8B007C83BD /* TitleVeiw.swift */; };
 		DCCE000D226839E1006CEDB6 /* AdminBoardListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */; };
 		DCCE0011227AE5A3006CEDB6 /* BoardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE0010227AE5A3006CEDB6 /* BoardList.swift */; };
 /* End PBXBuildFile section */
@@ -78,7 +80,6 @@
 		DC17675F225F265D00B821C5 /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClassViewController.swift; path = View/ClassViewController.swift; sourceTree = "<group>"; };
 		DC176761225F26AE00B821C5 /* PerformanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PerformanceViewController.swift; path = View/PerformanceViewController.swift; sourceTree = "<group>"; };
 		DC176763225F26E500B821C5 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShopViewController.swift; path = View/ShopViewController.swift; sourceTree = "<group>"; };
-		DC1767652260621D00B821C5 /* TileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TileView.xib; path = View/TileView.xib; sourceTree = "<group>"; };
 		DC17676D2265A6CE00B821C5 /* AdminWritePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminWritePageViewController.xib; sourceTree = "<group>"; };
 		DC17676F2265A75700B821C5 /* AdminWritePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminWritePageViewController.swift; sourceTree = "<group>"; };
 		DC1767712265A79200B821C5 /* AdminReWritePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminReWritePageViewController.swift; sourceTree = "<group>"; };
@@ -106,8 +107,11 @@
 		DC81B3892282BC5A005CBD31 /* BoardListCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardListCellView.xib; sourceTree = "<group>"; };
 		DC81B38B2282BCA5005CBD31 /* BoardListCellVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListCellVeiw.swift; sourceTree = "<group>"; };
 		DC83299B2285474C007C83BD /* TitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TitleView.xib; path = View/TitleView.xib; sourceTree = "<group>"; };
-		DC83299D22854895007C83BD /* TitleVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleVeiw.swift; sourceTree = "<group>"; };
-		DC83299F22895F5D007C83BD /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		DC8329A9228EAA8B007C83BD /* TableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableView.xib; path = View/TableView.xib; sourceTree = "<group>"; };
+		DC8329AA228EAA8B007C83BD /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableView.swift; path = View/TableView.swift; sourceTree = "<group>"; };
+		DC8329AB228EAA8B007C83BD /* TileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TileView.xib; path = View/TileView.xib; sourceTree = "<group>"; };
+		DC8329AC228EAA8B007C83BD /* TileVeiw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TileVeiw.swift; path = View/TileVeiw.swift; sourceTree = "<group>"; };
+		DC8329AD228EAA8B007C83BD /* TitleVeiw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitleVeiw.swift; path = View/TitleVeiw.swift; sourceTree = "<group>"; };
 		DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminBoardListViewController.xib; sourceTree = "<group>"; };
 		DCCE0010227AE5A3006CEDB6 /* BoardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardList.swift; sourceTree = "<group>"; };
 		E77BE319C0A6F5E5AC28AF8D /* Pods-CoreaFlamencoIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSTests/Pods-CoreaFlamencoIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +171,11 @@
 		DC176753225F1A9E00B821C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DC8329AA228EAA8B007C83BD /* TableView.swift */,
+				DC8329A9228EAA8B007C83BD /* TableView.xib */,
+				DC8329AC228EAA8B007C83BD /* TileVeiw.swift */,
+				DC8329AB228EAA8B007C83BD /* TileView.xib */,
+				DC8329AD228EAA8B007C83BD /* TitleVeiw.swift */,
 				DC17676C2265A6B500B821C5 /* Admin */,
 				DC176756225F1B0C00B821C5 /* NavigationView.xib */,
 				DC176758225F1BB900B821C5 /* NavigationView.swift */,
@@ -175,10 +184,7 @@
 				DC1767972265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift */,
 				DC176761225F26AE00B821C5 /* PerformanceViewController.swift */,
 				DC176763225F26E500B821C5 /* ShopViewController.swift */,
-				DC1767652260621D00B821C5 /* TileView.xib */,
-				DC83299F22895F5D007C83BD /* TileView.swift */,
 				DC83299B2285474C007C83BD /* TitleView.xib */,
-				DC83299D22854895007C83BD /* TitleVeiw.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -384,16 +390,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8329AE228EAA8B007C83BD /* TableView.xib in Resources */,
 				DC7B157D225498670085F77E /* LaunchScreen.storyboard in Resources */,
 				DC81B38A2282BC5A005CBD31 /* BoardListCellView.xib in Resources */,
 				DC17675C225F22F800B821C5 /* BMJUA_otf.otf in Resources */,
+				DC8329B0228EAA8B007C83BD /* TileView.xib in Resources */,
 				DC17676E2265A6CE00B821C5 /* AdminWritePageViewController.xib in Resources */,
 				DC1767742265A7AA00B821C5 /* AdminRewWritePageViewController.xib in Resources */,
 				DC1767AC2266CDC600B821C5 /* AdminLoginViewController.xib in Resources */,
 				DC176757225F1B0C00B821C5 /* NavigationView.xib in Resources */,
 				DC7B15A122549A0A0085F77E /* GoogleService-Info.plist in Resources */,
 				DC83299C2285474C007C83BD /* TitleView.xib in Resources */,
-				DC1767662260621D00B821C5 /* TileView.xib in Resources */,
 				DC7B157A225498670085F77E /* Assets.xcassets in Resources */,
 				DCCE000D226839E1006CEDB6 /* AdminBoardListViewController.xib in Resources */,
 				DC7B1578225498660085F77E /* Main.storyboard in Resources */,
@@ -506,20 +513,21 @@
 				DC1767A92266C67200B821C5 /* FireBaseRealTimeDB.swift in Sources */,
 				DC1767702265A75700B821C5 /* AdminWritePageViewController.swift in Sources */,
 				DC1767A82266C67200B821C5 /* BoardData.swift in Sources */,
-				DC8329A022895F5D007C83BD /* TileView.swift in Sources */,
 				DC176760225F265D00B821C5 /* ClassViewController.swift in Sources */,
 				DC176764225F26E500B821C5 /* ShopViewController.swift in Sources */,
 				DC1767AE2266CDD900B821C5 /* AdminLoginViewController.swift in Sources */,
+				DC8329B2228EAA8B007C83BD /* TitleVeiw.swift in Sources */,
 				DC81B38C2282BCA5005CBD31 /* BoardListCellVeiw.swift in Sources */,
+				DC8329B1228EAA8B007C83BD /* TileVeiw.swift in Sources */,
 				DC1767AA2266C67200B821C5 /* MainHomeData.swift in Sources */,
 				DC1767722265A79200B821C5 /* AdminReWritePageViewController.swift in Sources */,
 				DC17675E225F261B00B821C5 /* MainHomeViewController.swift in Sources */,
 				DC7B1571225498660085F77E /* AppDelegate.swift in Sources */,
+				DC8329AF228EAA8B007C83BD /* TableView.swift in Sources */,
 				DC1767982265A9E700B821C5 /* CoreaFlamencoInfoViewController.swift in Sources */,
 				DC81B3882282BA5D005CBD31 /* AdminBoardListViewController.swift in Sources */,
 				DC176762225F26AE00B821C5 /* PerformanceViewController.swift in Sources */,
 				DCCE0011227AE5A3006CEDB6 /* BoardList.swift in Sources */,
-				DC83299E22854895007C83BD /* TitleVeiw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
