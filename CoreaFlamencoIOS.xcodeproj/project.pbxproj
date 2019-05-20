@@ -43,6 +43,7 @@
 		DC8329B0228EAA8B007C83BD /* TileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8329AB228EAA8B007C83BD /* TileView.xib */; };
 		DC8329B1228EAA8B007C83BD /* TileVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8329AC228EAA8B007C83BD /* TileVeiw.swift */; };
 		DC8329B2228EAA8B007C83BD /* TitleVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8329AD228EAA8B007C83BD /* TitleVeiw.swift */; };
+		DC8329B422927C8C007C83BD /* CustomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8329B322927C8C007C83BD /* CustomNavigationViewController.swift */; };
 		DCCE000D226839E1006CEDB6 /* AdminBoardListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */; };
 		DCCE0011227AE5A3006CEDB6 /* BoardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE0010227AE5A3006CEDB6 /* BoardList.swift */; };
 /* End PBXBuildFile section */
@@ -112,6 +113,7 @@
 		DC8329AB228EAA8B007C83BD /* TileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TileView.xib; path = View/TileView.xib; sourceTree = "<group>"; };
 		DC8329AC228EAA8B007C83BD /* TileVeiw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TileVeiw.swift; path = View/TileVeiw.swift; sourceTree = "<group>"; };
 		DC8329AD228EAA8B007C83BD /* TitleVeiw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitleVeiw.swift; path = View/TitleVeiw.swift; sourceTree = "<group>"; };
+		DC8329B322927C8C007C83BD /* CustomNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewController.swift; sourceTree = "<group>"; };
 		DCCE000C226839E1006CEDB6 /* AdminBoardListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminBoardListViewController.xib; sourceTree = "<group>"; };
 		DCCE0010227AE5A3006CEDB6 /* BoardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardList.swift; sourceTree = "<group>"; };
 		E77BE319C0A6F5E5AC28AF8D /* Pods-CoreaFlamencoIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreaFlamencoIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreaFlamencoIOSTests/Pods-CoreaFlamencoIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				DC176761225F26AE00B821C5 /* PerformanceViewController.swift */,
 				DC176763225F26E500B821C5 /* ShopViewController.swift */,
 				DC83299B2285474C007C83BD /* TitleView.xib */,
+				DC8329B322927C8C007C83BD /* CustomNavigationViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC176759225F1BB900B821C5 /* NavigationView.swift in Sources */,
+				DC8329B422927C8C007C83BD /* CustomNavigationViewController.swift in Sources */,
 				DC1767A92266C67200B821C5 /* FireBaseRealTimeDB.swift in Sources */,
 				DC1767702265A75700B821C5 /* AdminWritePageViewController.swift in Sources */,
 				DC1767A82266C67200B821C5 /* BoardData.swift in Sources */,

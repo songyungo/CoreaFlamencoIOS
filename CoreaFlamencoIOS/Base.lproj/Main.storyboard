@@ -32,7 +32,7 @@
         <!--Main-->
         <scene sceneID="tAZ-c8-ivX">
             <objects>
-                <navigationController id="fTG-nT-vcj" sceneMemberID="viewController">
+                <navigationController id="fTG-nT-vcj" customClass="CustomNavigationViewController" customModule="CoreaFlamencoIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Main" id="YtL-Gn-wqe"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2av-ml-Kpr">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -156,7 +156,7 @@
         <!--class-->
         <scene sceneID="D11-ZJ-VEr">
             <objects>
-                <navigationController id="6GC-jP-Mor" sceneMemberID="viewController">
+                <navigationController id="6GC-jP-Mor" customClass="CustomNavigationViewController" customModule="CoreaFlamencoIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="class" id="hfk-eO-Rfp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CAO-n0-L8b">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -173,7 +173,7 @@
         <!--performance-->
         <scene sceneID="lAW-bh-05g">
             <objects>
-                <navigationController id="S6c-sy-6hP" sceneMemberID="viewController">
+                <navigationController id="S6c-sy-6hP" customClass="CustomNavigationViewController" customModule="CoreaFlamencoIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="performance" id="eVn-Bp-6HV"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LEg-f9-GZd">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -190,7 +190,7 @@
         <!--Info-->
         <scene sceneID="BRX-Od-MEe">
             <objects>
-                <navigationController id="QEg-rN-AVL" sceneMemberID="viewController">
+                <navigationController id="QEg-rN-AVL" customClass="CustomNavigationViewController" customModule="CoreaFlamencoIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Info" id="wWs-fU-kyh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FOg-eM-H2K">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -207,7 +207,7 @@
         <!--Shop-->
         <scene sceneID="cCz-Cc-epK">
             <objects>
-                <navigationController id="BeO-I6-Jyk" sceneMemberID="viewController">
+                <navigationController id="BeO-I6-Jyk" customClass="CustomNavigationController" customModule="CoreaFlamencoIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Shop" id="ngb-0I-Zw1"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ur7-P9-JQI">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

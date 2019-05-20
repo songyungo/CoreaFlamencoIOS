@@ -9,9 +9,16 @@
 import UIKit
 
 class MainHomeViewController: UIViewController {
+    //
+    
     override func viewDidLoad() {
-        
+        setCollection()
     }
     
+    // load collection
+    
+    private func setCollection(){
+        
+    }
     
 }
